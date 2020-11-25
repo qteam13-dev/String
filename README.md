@@ -1,6 +1,8 @@
 # String
 Some methods to manage strings using C (and if you want using C++).
 
+## Methods
+
 | Method | Description |
 |:----|:----|
 sc_strnew | create a new empty String
@@ -20,3 +22,6 @@ sc_strsub | make a sub-string of a String
 int (*fcmp)(char, char) is a pointer to a function you can passed to
 some methods to compare two charcters. So changing this function you
 can have a sensitive or insensitive comparing.
+
+## Usage
+
