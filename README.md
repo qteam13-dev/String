@@ -1,5 +1,5 @@
 # String
-Some methods to manage strings in C (and if you want C++).
+Some methods to manage strings using C (and if you want using C++).
 
 | Method | Description |
 |:----|:----|
