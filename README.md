@@ -19,7 +19,7 @@ sc_strchr | search a character in a String
 sc_strsch | search a zero-ending string in a String
 sc_strsub | make a sub-string of a String
 
-Note: int (*fcmp)(char, char) is a pointer to a function you can passed to
+Note: `int (*fcmp)(char, char)` is a pointer to a function you can passed to
 some methods to compare two charcters. So changing this function you
 can have a sensitive or insensitive comparing.
 
