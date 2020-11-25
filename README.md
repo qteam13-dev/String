@@ -2,7 +2,7 @@
 Some methods to manage strings in C (and if you want C++).
 
 | Method | Description |
-|----:|:----|
+|:----|:----|
 sc_strnew | create a new empty String
 sc_strdel | delete a String
 sc_strcpy | copy a zero-ending string into a String
