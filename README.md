@@ -24,4 +24,23 @@ some methods to compare two charcters. So changing this function you
 can have a sensitive or insensitive comparing.
 
 ## Usage
+To use String you have to include `string.h` into your C or C++ project and add `string.c` for compilation.
+```C++
+#include <stdlib.h>
+#include <stdio.h>
+#include "string.h"
 
+int main(int argc, char** argv) {
+  if (argc == 3) {
+    struct String* str = sc_strnew(NULL);
+    if (str = sc_strcpy("Hello World! Hello World!", NULL)) {
+      printf("cpy: {%s} [%d-%d]\n", str->data, str->used, str->size);
+      if (str = sc_strrep(-1, argv[2], argv[1], str, &sc_chicmp)) {
+        printf("rep: {%s} [%d-%d]\n", str->data, str->used, str->size);
+        sc_strdel(str);
+      }
+    }
+  }
+  return 0;
+}
+```
